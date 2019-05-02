@@ -1,6 +1,6 @@
 <OGRVRTDataSource>
   <OGRVRTLayer name="ADR31254">
-    <SrcDataSource relativeToVRT="1">..\..\..\DATA\04_AGWR\20181001\ADRESSE.csv</SrcDataSource>
+    <SrcDataSource relativeToVRT="1">/vsizip/Adresse_Relationale_Tabellen-Stichtagsdaten.zip/ADRESSE.csv</SrcDataSource>
     <SrcLayer>CSV</SrcLayer>
     <SrcSQL>SELECT * FROM ADRESSE WHERE EPSG = '31254'</SrcSQL>
     <GeometryType>wkbPoint</GeometryType>

@@ -1,6 +1,6 @@
 <OGRVRTDataSource>
   <OGRVRTLayer name="GEB31256">
-    <SrcDataSource relativeToVRT="1">..\..\..\DATA\04_AGWR\20181001\GEBAEUDE.csv</SrcDataSource>
+    <SrcDataSource relativeToVRT="1">/vsizip/Adresse_Relationale_Tabellen-Stichtagsdaten.zip/GEBAEUDE.csv</SrcDataSource>
     <SrcLayer>CSV</SrcLayer>
     <SrcSQL>SELECT * FROM GEBAEUDE WHERE epsg = '31256'</SrcSQL>
     <GeometryType>wkbPoint</GeometryType>
