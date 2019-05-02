@@ -6,11 +6,11 @@ heruntergeladen und auf einfache Weise in ein OGC Geopackage zur lokalen Verwend
 
 ## Voraussetzungen
 1. Git
-1. GDAL/OGR (bspw. QGIS 3 Standalone Installer > OSGeo4W Shell)
+2. GDAL/OGR (bspw. QGIS 3 Standalone Installer > OSGeo4W Shell)
 
-## Verwendung
+## Verwendung (Beispiel AGWR)
 1. Start der OSGeo4W Shell (Start > Programme > QGIS > OSGeo4W Shell)
-1. `git clone &lt;Dieses Repository&gt;` in ein neues lokales Arbeitsverzeichnis
-1. `cd ogd2gpkg`
-1. `run.cmd`
+2. `git clone`
+3. `cd ogd2gpkg\agwr`
+4. `run.cmd`
 
