@@ -7,11 +7,21 @@ echo %ENV%
 call %ENV%
 
 CHOICE /C YN /M "Download AGWR?"
-IF ERRORLEVEL 2 goto end
-IF ERRORLEVEL 1 GOTO download_agwr
-:download_agwr
+IF ERRORLEVEL 2 goto vgd
+IF ERRORLEVEL 1 GOTO dl_agwr
+:dl_agwr
 cd GWR
 call agwr2gpkg.cmd
+
+:vgd
+CHOICE /C YN /M "Download Verwaltungsgrenzen?"
+IF ERRORLEVEL 2 goto end
+IF ERRORLEVEL 1 GOTO dl_vgd
+:dl_vgd
+cd ..\VGD
+call vgd2gpkg.cmd
+
+
 
 :end
 pause
