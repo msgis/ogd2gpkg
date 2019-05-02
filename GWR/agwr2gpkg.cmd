@@ -21,3 +21,5 @@ ogr2ogr -f GPKG ..\ogd.gpkg .\gwr_geb31255.vrt -append -nln "gwr_geb" -s_srs "EP
 
 echo importiere Gebaeude 31254. bitte warten...
 ogr2ogr -f GPKG ..\ogd.gpkg .\gwr_geb31254.vrt -append -nln "gwr_geb" -s_srs "EPSG:31254" -t_srs "EPSG:31287" -nlt POINT -oo ENCODING="cp1252"
+
+cd ..

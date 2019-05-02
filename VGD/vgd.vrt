@@ -1,9 +1,0 @@
-<OGRVRTDataSource>
-  <OGRVRTLayer name="vgd">
-    <SrcDataSource relativeToVRT="1">/vsizip/VGD-Oesterreich_gst.zip/Oesterreich_BEV_VGD_LAM.shp</SrcDataSource>
-    <SrcLayer>Oesterreich_BEV_VGD_LAM</SrcLayer>
-    <GeometryType>wkbPolygon</GeometryType>
-    <LayerSRS>EPSG:31287</LayerSRS>
-  </OGRVRTLayer>
-</OGRVRTDataSource>
-
