@@ -1,6 +1,6 @@
 REM pushd H:\PRJ\AUSTRIA\ETL
 
-IF EXISTS Adresse_Relationale_Tabellen-Stichtagsdaten.zip GOTO importdata
+IF EXIST Adresse_Relationale_Tabellen-Stichtagsdaten.zip GOTO importdata
 REM powershell -Command "Invoke-WebRequest -Uri 'http://www.bev.gv.at/pls/portal/docs/PAGE/BEV_PORTAL_CONTENT_ALLGEMEIN/0200_PRODUKTE/UNENTGELTLICHE_PRODUKTE_DES_BEV/Adresse_Relationale_Tabellen-Stichtagsdaten.zip' -OutFile 'Adresse_Relationale_Tabellen-Stichtagsdaten.zip'"
 curl http://www.bev.gv.at/pls/portal/docs/PAGE/BEV_PORTAL_CONTENT_ALLGEMEIN/0200_PRODUKTE/UNENTGELTLICHE_PRODUKTE_DES_BEV/Adresse_Relationale_Tabellen-Stichtagsdaten.zip --output Adresse_Relationale_Tabellen-Stichtagsdaten.zip
 
